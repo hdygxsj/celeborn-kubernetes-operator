@@ -1,2 +1,10 @@
 server:
   port: 9371
+
+kubernetes:
+  client:
+    type: kubeconfig # kubeconfig、token、default
+    path:           # token
+    ca:              # token
+    token:           # token
+    masterUrl:       # token
